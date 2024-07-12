@@ -1,0 +1,9 @@
+import time
+
+def display_wallet_balance():
+    for balance in range(0, 10001, 10):
+        print(f"\rYour wallet balance is equal to {balance}$", end="")
+        time.sleep(1)
+
+if __name__ == "__main__":
+    display_wallet_balance()
